@@ -1,0 +1,43 @@
+// All CV content lives here. Edit this file to update the site.
+export const cv = {
+  name: 'Mahmudul Hasan',
+  title: 'Senior Software Engineer',
+  tagline: 'Senior Android developer building fast, stable apps used by millions.',
+  email: 'mhasancse15@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/mhasancse15',
+  github: 'https://github.com/mhasancse15',
+  location: 'Dhaka, Bangladesh',
+  about: [
+    'I am a Senior Mobile Application Developer with 8.5+ years of experience in native Android and Flutter. I work in Kotlin, Java, the Android SDK and Jetpack Compose, and I care about clean, maintainable architecture.',
+    'I have led mobile teams, owned Android projects end to end, and shipped high-performance apps with live streaming, RESTful APIs and third-party SDK integrations. I focus on app stability, performance and a smooth user experience, and I work closely with cross-functional teams.',
+  ],
+  skills: [
+    { group: 'Android', items: ['Jetpack Compose', 'Android SDK', 'Material Design', 'XML Views', 'Navigation', 'Paging 3', 'Room', 'DataBinding', 'ViewModel', 'Lifecycle', 'Hilt', 'Retrofit', 'Coroutines', 'Flow', 'RxJava', 'WorkManager'] },
+    { group: 'Languages', items: ['Kotlin', 'Java', 'Dart', 'Swift', 'HTML', 'CSS', 'XML', 'Bootstrap'] },
+    { group: 'Architecture and patterns', items: ['Clean Architecture', 'MVVM', 'MVI', 'MVP', 'MVC', 'Multi-Module', 'Repository Pattern', 'Use Case Pattern', 'Builder Pattern', 'Singleton', 'SOLID'] },
+    { group: 'Third-party SDKs', items: ['Agora SDK', 'WebRTC', 'Socket.io', 'FaceGlBeauty SDK', 'FaceUnity AR SDK', 'VmaxSDK', 'Branch.io', 'Netcore SDK'] },
+    { group: 'Flutter', items: ['BLoC', 'GetX', 'Riverpod', 'Provider', 'GetIt', 'Dio', 'GoRouter', 'Freezed'] },
+    { group: 'Data and backend', items: ['Room', 'Realm', 'SQLite', 'SQLDelight', 'Firebase', 'Hive', 'Drift', 'SharedPreferences'] },
+    { group: 'Testing', items: ['JUnit 4', 'MockK', 'Unit Testing', 'Mocking'] },
+    { group: 'Tools and analytics', items: ['Git', 'GitHub', 'Bitbucket', 'Jira', 'Trello', 'Slack', 'Code Review', 'Firebase Analytics', 'Statsig', 'Datadog', 'Netcore'] },
+    { group: 'AI tools', items: ['Cursor', 'ChatGPT', 'Gemini', 'GitHub Copilot', 'Claude'] },
+  ],
+  experience: [
+    { role: 'Senior Software Engineer', company: 'Brain Station 23 PLC', period: '08/2024 - Present', dur: '', tech: ['Kotlin','Jetpack Compose','MVVM','Retrofit','Firebase','VMAX SDK','Netcore SDK'], location: 'Dhaka, Bangladesh', points: ['Working at Grameenphone as an augmented resource from Brain Station 23.', 'Developing and optimizing key features for the MyGP app to improve user experience.', 'Collaborating with cross-functional teams to ensure app stability and high performance.', 'Leading the implementation of innovative digital solutions for enhanced app functionality.'] },
+    { role: 'Lead Mobile Application Engineer', company: 'Apprise IT', period: '01/2022 - 07/2024', dur: '2 yrs 7 mos', location: 'Dhaka, Bangladesh', points: ['Full ownership of Android application development projects.', 'Leading and mentoring a team of mobile developers.', 'Implementing advanced features to enhance app user experience.'] },
+    { role: 'Senior Android Application Developer', company: 'Apprise IT', period: '01/2021 - 12/2021', dur: '1 yr', location: 'Dhaka, Bangladesh', points: ['Developing an Android application for live streaming.', 'Participating in sprint planning, scrums, demos and retrospectives.', 'Providing architectural direction and performing peer code reviews.'] },
+    { role: 'Android Developer', company: 'Apprise IT', period: '01/2020 - 12/2020', dur: '1 yr', tech: ['RxJava','Retrofit','Dagger 2','Hilt','Room','LiveData','Paging 3','Agora SDK','Socket.io'], location: 'Dhaka, Bangladesh', points: ['Integrated RESTful APIs and used reactive programming with RxJava.', 'Applied OOP, design patterns and architectural patterns such as MVC, MVP and MVVM.', 'Worked with Jetpack components: Room, LiveData, MVVM, Paging 3, DataBinding.', 'Used Retrofit, Dagger 2, Hilt, Agora SDK, Socket.io, FaceUnity, FaceGlBeautySDK and SVGA Player.'] },
+    { role: 'Android Developer', company: 'Emos Bd Technology', period: '02/2019 - 12/2019', dur: '11 mos', location: 'Dhaka, Bangladesh', points: ['Developed Android applications integrated with back-end services.', 'Worked with API developers to provide data to the apps via RESTful APIs.'] },
+    { role: 'Android App Development Trainer', company: 'Rise Up Labs', period: '08/2018 - 12/2018', dur: '5 mos', location: 'Dhaka, Bangladesh', points: ['Taught basic to advanced Android concepts and high-level Java programming.', 'Taught Android UI design based on UX, including gestures.'] },
+    { role: 'Android App Development Trainer', company: 'Workspace Infotec Ltd', period: '04/2018 - 07/2018', dur: '4 mos', location: 'Dhaka, Bangladesh', points: ['Taught basic to advanced Android concepts and high-level Java programming.'] },
+    { role: 'Junior Software Engineer', company: 'Dreamploy', period: '01/2018 - 05/2018', dur: '5 mos', location: '', points: ['Built Android apps integrated with back-end services, including REST sync and offline-first apps for rural areas.', 'Worked with third-party libraries and APIs, Google Maps, navigation and tracking.', 'Maintained the full mobile development life cycle and communicated with the client.'] },
+    { role: 'Intern Software Engineer', company: 'Akij Group', period: '09/2017 - 12/2017', dur: '4 mos', location: 'Dhaka, Bangladesh', points: ['Worked under a System Analyst on application coding and testing.', 'Designed UI based on UX to add feature gestures.'] },
+  ],
+  projects: [
+    { name: 'MyGP: Offer, Recharge, Sports', kind: 'Active', role: 'Led feature development', period: '08/2024 - Present', desc: "Grameenphone's flagship mobile app, serving millions of users with real-time account management, balance and data tracking, package purchases and personalized offers.", tech: ['Kotlin', 'Jetpack Compose', 'MVVM', 'Retrofit', 'Firebase', 'VMAX SDK', 'Branch.io', 'Ibadha SDK', 'Netcore SDK'], points: ['Led feature development and delivered scalable, user-focused solutions.', 'Improved app performance, stability and scalability through cross-team collaboration.'] },
+    { name: 'Hive: Live Stream Video Chat', kind: 'Live streaming', role: 'Led Android development', period: '01/2020 - 07/2024', desc: 'A live streaming app where users go live, participate in streams and enjoy social experiences through live interactions.', tech: ['Android', 'WebRTC', 'Agora SDK'], points: ['Led Android development, focusing on live streaming functionality and user experience.', 'Integrated real-time communication with WebRTC and Agora SDK.', 'Managed performance, scalability and timely releases with a focus on code quality.'] },
+    { name: 'POCO: Live Stream Video Chat', kind: 'Live streaming', role: 'Led Android development', period: '05/2021 - 07/2024', desc: 'A social live streaming platform where users connect, broadcast, send virtual gifts and take part in live events.', tech: ['Android', 'Agora SDK', 'WebRTC'], points: ['Led Android development, ensuring smooth live streaming and real-time interactions.', 'Implemented core features with Agora SDK for streaming and WebRTC for communication.', 'Optimized performance and kept code quality high through regular code reviews and testing.'] },
+  ],
+  education: { degree: 'BSc in Computer Science and Engineering (CSE)', school: 'Daffodil International University', period: '06/2013 - 09/2017', location: 'Dhaka, Bangladesh' },
+  training: { name: 'Android Application Development', org: 'BITM', period: '01/2017 - 04/2017', note: 'Hands-on training in Android SDK, UI design and API integration.' },
+}
