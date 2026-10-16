@@ -6,7 +6,7 @@ export const cv = {
   email: 'mhasancse15@gmail.com',
   linkedin: 'https://www.linkedin.com/in/mhasancse15',
   github: 'https://github.com/mhasancse15',
-  location: 'Bangladesh',
+  location: 'Dhaka, Bangladesh',
   about: [
     'I am a Senior Mobile Application Developer with 8.5+ years of experience in native Android and Flutter. I work in Kotlin, Java, the Android SDK and Jetpack Compose, and I care about clean, maintainable architecture.',
     'I have led mobile teams, owned Android projects end to end, and shipped high-performance apps with live streaming, RESTful APIs and third-party SDK integrations. I focus on app stability, performance and a smooth user experience, and I work closely with cross-functional teams.',
