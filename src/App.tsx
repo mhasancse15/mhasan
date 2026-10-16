@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { CSSProperties, ReactNode } from 'react'
 import { ArrowRight, BadgeCheck, Briefcase, Code, Database, Download, GraduationCap, Github, History, Linkedin, Mail, MapPin, Medal, Menu, Moon, Network, Share2, Smartphone, Sun, Terminal, Bot, Users, X } from 'lucide-react'
+import { Analytics } from '@vercel/analytics/react'
 import { cv } from './data'
 import Shader from './Shader'
 
@@ -288,6 +289,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </>
   )
 }
